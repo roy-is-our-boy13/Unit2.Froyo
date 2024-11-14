@@ -4,7 +4,8 @@
  */
 const froyo = {
     flavor: ["Vanilla", "Strawberry", "Coffee", "Birthday Cake", "Chocolate"],
-    size: ["Large", "Medium", "Small"]
+    size: ["Large", "Medium", "Small"],
+    toppings: ["Hot fudge", "Sprinkles", "Peanut Butter", "Strawberry Sauce", "Gummy Bears", "Caramel Sauce", "Whipped Cream"]
 }
 
 console.log(Object.keys(froyo));
@@ -36,7 +37,7 @@ const userInputOnFroyoFlavor = prompt(
   function flavorAmount(flavors)
   {
     const countingFlavors = {};
-    
+
     for(const flavor of flavors)
     {
         if(countingFlavors[flavor])
