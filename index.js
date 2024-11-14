@@ -24,7 +24,7 @@ displayTable(froyo);
 //The primary lines of code for Block 15 Workshop: Froyo Orders.
 const userInputOnFroyoFlavor = prompt(
     "Please enter the froyo flavors you would like to order, separated by commas.",
-    "Vanilla,vanilla,vanilla,strawberry,coffee,coffee,Birthday cAke,Birthday Cake"
+    "Vanilla,vanilla,vanilla,ChocoLate,strawberry,coffee,Chocolate,coffee,Birthday cAke,Birthday Cake"
   );
   
   const lowercaseInputOnFroyoFlavor = userInputOnFroyoFlavor.toLowerCase();
