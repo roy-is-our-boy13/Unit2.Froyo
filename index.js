@@ -33,10 +33,6 @@ const userInputOnFroyoFlavor = prompt(
 
   const stringArrayOfFroyoFlavors = lowercaseInputOnFroyoFlavor.split(",");
 
-  //const mainInputOnFroyoFlavor = stringArrayOfFroyoFlavors.map(flavor => flavor.charAt(0).toUpperCase() +  + flavor.slice(1));
-
-  //console.log(mainInputOnFroyoFlavor);
-
   function flavorAmount(flavors)
   {
     const countingFlavors = {};
